@@ -1,7 +1,7 @@
 <header class="site-header">
 
   <div class="wrap">
-
+    <img src="/images/lion.png" />
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
     <nav class="site-nav">
@@ -17,9 +17,12 @@
         </svg>
       </a>
       <div class="trigger">
-        {% for page in site.pages %}
+        <!-- {% for page in site.pages %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-        {% endfor %}
+        {% endfor %} -->
+        <a class='page-link' href="/about">About</a>
+        <a class='page-link' href="/portfolio">Portfolio</a>
+        <a class='page-link' href="/contact">Contact</a>
       </div>
     </nav>
 

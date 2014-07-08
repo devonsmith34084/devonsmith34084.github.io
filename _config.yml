@@ -8,3 +8,4 @@ url: "http://devonsmith34084.github.io"
 # Build settings
 markdown: kramdown
 permalink: pretty
+auto: true

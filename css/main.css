@@ -8,7 +8,7 @@
 
 html, body {
   height: 100%;
-  margin-bottom: 400px;
+
 }
 
 body {
@@ -18,9 +18,9 @@ body {
   line-height: 1.5;
   font-weight: 300;
   background-color: #25384B;
-  color:white
-}
+  color: white;
 
+}
 h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
 
 a         { color: #2a7ae2; text-decoration: none; }
@@ -47,9 +47,8 @@ p {font-family: 'Lobster', cursive; font-size:25px;letter-spacing:1px}
 /* Site header */
 
 .site-header {
-  background-color: #FF6347;
-  border-top: 1px solid #E94426;
-  bottom: 0;
+  background-color: #333399;
+  top: 0;
   right: 0;
   left: 0;
   padding: 20px 0;
@@ -118,7 +117,7 @@ p {font-family: 'Lobster', cursive; font-size:25px;letter-spacing:1px}
 .posts .post-date {
   display: block;
   font-size: 15px;
-  color: #white;
+  color: white;
 }
 
 

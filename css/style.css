@@ -1,8 +1,10 @@
+
 .hero {
-  background-image: url('/images/hero.jpg');
+  background-image: url('/images/newhero.jpg');
   background-size: cover;
   border-top: 1px solid black;
   height: 600px;
+
 
 }
 a{
@@ -11,22 +13,33 @@ a{
 
 
 .blog-post {
-  background-color: #333399;
-  border-radius: 30px;
-  box-shadow: 0px 5px 15px rgba(0,0,0,0.25);
-  margin: 25px 25px 2em 25px;
-  padding: 20px;
+   background: white;
+   border: 2px solid #f7505a;
+   border-radius: 10px;
+   box-shadow: 0 0 0 2px #f7505a, 3px 3px 3px 3px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+   font-size: 21px;
+   font-weight: bold;
+   margin: 100px;
+   padding: 20px;
+
+
+   line-height: 1.3em;
 }
 
-.blog-post h2 {
+.blog-post h1,h2,h3,h4,h5,h6 {
   font-size: 1.5em;
+  color:#f7505a;
 }
-body{
-  background-color: #616A7F;
-
+.blog-post p{
+  padding: 15px;
+  margin: 5px;
+  color: black;
+  font-family: 'News Cycle', sans-serif;
 }
 .logo {
   display: block;
-  margin: 200px auto 0 auto;
+  margin: 215px auto 0 auto;
   max-width: 150px;
+  height:
 }
